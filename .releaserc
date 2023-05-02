@@ -10,6 +10,7 @@ plugins:
     # - type: chore
     #   scope: deps
     #   release: patch
+- "../../studyoco/devops/semantic-release-scheduled/index.js"
 - - "@semantic-release/release-notes-generator"
   - preset: conventionalcommits
     presetConfig:
