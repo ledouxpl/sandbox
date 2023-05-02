@@ -3,14 +3,13 @@ branches:
 - master
 - main
 
-
 plugins:
 - - "@semantic-release/commit-analyzer"
   - preset: conventionalcommits
-    releaseRules:
-    - type: chore
-      scope: deps
-      release: patch
+    # releaseRules:
+    # - type: chore
+    #   scope: deps
+    #   release: patch
 - - "@semantic-release/release-notes-generator"
   - preset: conventionalcommits
     presetConfig:
@@ -42,4 +41,3 @@ plugins:
     - type: chore
       section: ":repeat: Chore"
       hidden: false
-# - "@semantic-release/github"
